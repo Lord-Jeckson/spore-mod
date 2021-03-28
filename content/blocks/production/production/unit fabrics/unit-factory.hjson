@@ -1,0 +1,24 @@
+name: Unit Factory
+type: UnitFactory
+size: 3
+consumes: {
+  power: 2.2
+}
+plans: [
+  {
+    unit: killer
+    requirements: [
+      silicon/150
+      graphite/250
+      iron/500
+    ] 
+    time: 600
+  }
+]
+requirements: [
+  copper/50
+  lead/150
+  silicon/70
+  iron/100
+]
+category: units
