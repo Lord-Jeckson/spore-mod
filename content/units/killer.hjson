@@ -1,0 +1,36 @@
+name: killer
+speed: 0.9
+flying: true
+health: 900
+range: 200
+engineOffset: 3
+engineSize: 2
+rotateSpeed: 10
+targetAir: true
+weapons:[
+{
+name: killer-weapon
+  x: 0
+  y: -3
+  shootY: 6
+  reload: 20
+  ejectEffect: none
+  recoil: 1
+  shootSound: laser
+  rotate: true
+  mirror: false
+  bullet: {
+    type: SapBulletType
+    sapStrength: 1.5
+    length: 140
+    damage: 60
+    shootEffect: shootSmall
+    hitColor: D6FF33
+    color: FFE70F
+    despawnEffect: none
+    width: 0.9
+    lifetime: 35
+    knockback: 1.9
+
+}}
+]
