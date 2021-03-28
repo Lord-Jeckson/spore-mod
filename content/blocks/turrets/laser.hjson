@@ -1,0 +1,43 @@
+name: laser
+description: A small turret
+type: itemTurret
+requirements: [
+graphite/120
+iron/100
+silicon/100
+] 
+ammoTypes: {
+  iron: {
+    type: PointBulletType
+    shootEffect: instShoot
+    hitEffect: instHit
+    smokeEffect: smokeCloud
+    trailEffect: instTrail
+    despawnEffect: instBomb
+    trailSpacing: 12
+    damage: 40
+    tileDamageMultiplier: 0.5
+    speed: 59
+    hitShake: 2
+    ammoMultiplier: 3
+  }
+}
+consumes: {
+  power: 3
+  liquid: {
+  liquid: cryofluid
+  amount: 0.1
+  booster: false
+  optional: false
+  }
+}
+reloadTime: 40
+shots: 3
+burstSpacing: 8
+inaccuracy: 1.2
+liquidBoostIntensity: 1.1
+range: 210
+size: 2
+health: 600
+research: lancer
+category: turret

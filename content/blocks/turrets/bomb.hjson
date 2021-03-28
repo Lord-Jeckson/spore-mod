@@ -1,0 +1,39 @@
+name: Bomba
+description: Total destruction.
+type: itemTurret
+requirements: [
+graphite/35
+iron/50
+lead/50
+] 
+ammoTypes: {
+  iron: {
+   type: LaserBulletType
+    length: 180
+    damage: 25
+    width: 45
+    lifetime: 75
+    lightningSpacing: 40
+    lightningLength: 12
+    lightningDelay: 1.0
+    lightningLengthRand: 21
+    lightningDamage: 65
+    lightningAngleRand: 30
+    largeHit: true
+    shootEffect: greenLaserCharge
+    collidesTeam: true
+    sideAngle: 15
+    sideWidth: 0
+    sideLength: 0
+    colors: [d5b2ed, 9671b1, a17dcd]
+  }
+}
+reloadTime: 30
+shots: 1
+burstSpacing: 3
+inaccuracy: 0.2
+range: 230
+size: 2
+health: 500
+research: laser
+category: turret
